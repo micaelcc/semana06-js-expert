@@ -1,0 +1,20 @@
+{
+  "name": "semana06-js-expert",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "git@github.com:micaelcc/semana06-js-expert.git",
+  "author": "Micael Lima <micaelcomp@alu.ufc.br>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/index.js",
+    "live-reload": "nodemon server/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "pino": "^7.8.1",
+    "pino-pretty": "^7.5.3"
+  }
+}
